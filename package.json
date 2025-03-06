@@ -1,0 +1,11 @@
+{
+  "name": "dsa-exercises",
+  "version": "1.0.0",
+  "description": "My work on learning DSA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ifeanyi",
+  "license": "MIT"
+}
