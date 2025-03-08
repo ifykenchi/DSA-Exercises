@@ -6,7 +6,7 @@
 
 ## stack2
 
-#### I learnt that while this: a + (b * c) + d is more radable to us, it is inefficient because the compiler has to scan the expression multiple times to solve b*c first, then add a and d.
+#### I learnt that while this: a + (b * c) + d is more readable to us, it is inefficient because the compiler has to scan the expression multiple times to solve b*c first, then add a and d.
 
 ### The postfix expression solves this problem. here there is no need for parenthesis, and only move back one step when an operator is reached.
 
