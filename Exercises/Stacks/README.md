@@ -8,13 +8,13 @@
 
 #### I learnt that while this: a + (b * c) + d is more readable to us, it is inefficient because the compiler has to scan the expression multiple times to solve b*c first, then add a and d.
 
-### The postfix expression solves this problem. here there is no need for parenthesis, and only move back one step when an operator is reached.
+#### The postfix expression solves this problem. here there is no need for parenthesis, and only move back one step when an operator is reached.
 
 #### To implement this logic, I created a separate function to calculate the precedence of each operator
 
 #### In the postfix function I created two stack arrays. One to passin the operators and the second is a string to pass in the results.
 
-### I used a for loop to iterate through the input expression. for each character:
+#### I used a for loop to iterate through the input expression. for each character:
 
 #### If it is a number, I added it to the result string.
 
