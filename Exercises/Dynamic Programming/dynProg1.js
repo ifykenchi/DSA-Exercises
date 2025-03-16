@@ -37,5 +37,5 @@ function longestSubstring(str) {
 	return str.substring(start, start + maxLen);
 }
 
-const str = "aaaabbaa";
+const str = "abbacaabbaabacc";
 console.log(longestSubstring(str));
